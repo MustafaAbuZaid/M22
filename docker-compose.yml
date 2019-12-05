@@ -3,6 +3,7 @@ version: '2'
 services:
 
   portainer:
+    container_name: port1
     image: portainer/portainer
     ports:
       - 9001:9000
